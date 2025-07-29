@@ -115,7 +115,7 @@ client.set_event_callback("player_hurt", function(e)
                     endtime = references.globals.curtime() + 4,
                     x = bullet_impact_hit.x,
                     y = bullet_impact_hit.y,
-                    z = bullet_impact_hit.z,
+                    z = bullet_impact_hit.z
                 }
             end
         end
